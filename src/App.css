@@ -1,0 +1,59 @@
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.navbar>.container-fluid{
+  display: initial;
+}
+.navbar-expand-md .navbar-nav {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.navbar-expand-md .navBar {
+  flex-direction: row;
+  float: right;
+}
+.dropdownMenu{
+  display: none;
+}
+.navBarImg:hover .dropdownMenu{
+  display: block;
+}
+.navBarImg{
+  position: relative;
+  color: #fff;
+  font-size: 27px;
+  line-height: 1;
+}
+.dropdownMenu{
+  width: 200px;
+  background-color: #000;
+  position: absolute;
+  right: 0;
+  top: 37px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.dropdownMenu li{
+  list-style: none;
+}
+.dropdownMenu li a{
+  font-size: 16px;
+  line-height: 1.3;
+}
